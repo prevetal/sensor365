@@ -1,0 +1,330 @@
+@media (max-width: 479px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        top: auto;
+        bottom: 0;
+
+        margin-bottom: 0;
+    }
+
+
+    .swiper-button-prev
+    {
+        right: auto;
+        left: 0;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header
+    {
+        padding: 20px 0;
+    }
+
+
+    header .menu_link
+    {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+    }
+
+
+    #catalog_modal
+    {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    #catalog_modal ul
+    {
+                column-count: 1;
+        -webkit-column-count: 1;
+           -moz-column-count: 1;
+        -webkit-column-gap: 0;
+           -moz-column-gap: 0;
+                column-gap: 0;
+    }
+
+
+
+    header .links
+    {
+        padding-top: 110px;
+    }
+
+    header .links .item a
+    {
+        font-size: 16px;
+    }
+
+    header.dark .links .item a
+    {
+        color: #fff;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_slider .slide .cont
+    {
+        min-height: 515px;
+    }
+
+
+
+    .content .block_title
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .content .block_title br
+    {
+        display: none;
+    }
+
+
+
+    .brands .item
+    {
+        width: calc(50% - 30px);
+    }
+
+
+
+    .products .product .info
+    {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+
+
+    .products .product .col_right
+    {
+        width: 100%;
+    }
+
+
+    .recommended_products .block_title
+    {
+        padding-right: 0;
+    }
+
+
+    .recommended_products .swiper-pagination
+    {
+        display: flex;
+    }
+
+
+    .recommended_products .thumb
+    {
+        height: 154px;
+        padding: 15px;
+
+        border-color: #e8e8e8;
+    }
+
+
+
+    #buy_form
+    {
+        padding: 40px 20px 20px 20px;
+    }
+
+
+
+    .text_block
+    {
+        line-height: 22px;
+
+        text-align: left;
+    }
+
+
+    .text_block img.left,
+    .text_block img.right
+    {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 25px;
+    }
+
+
+    .text_block iframe
+    {
+        height: 220px;
+    }
+
+
+
+    .pagination
+    {
+        text-align: center;
+    }
+
+    .pagination a.prev,
+    .pagination a.next
+    {
+        display: none;
+    }
+
+
+
+    .cart_info table tr
+    {
+        position: relative;
+
+        display: block;
+        overflow: hidden;
+
+        width: 100%;
+    }
+
+    .cart_info table tr + tr
+    {
+        margin-top: 30px;
+    }
+
+    .cart_info table td
+    {
+        display: block;
+        float: left;
+    }
+
+    .cart_info table tr + tr td
+    {
+        padding-top: 0;
+    }
+
+    .cart_info table td.name
+    {
+        width: calc(100% - 90px);
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
+
+    .cart_info table td.amount
+    {
+        float: right;
+
+        width: calc(100% - 90px);
+    }
+
+    .cart_info table td.amount .box
+    {
+        width: 100%;
+    }
+
+    .cart_info table td.delete
+    {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+
+        width: auto;
+    }
+
+    .cart_info table td.delete a
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    .checkout_info .title
+    {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .checkout_info .form .name
+    {
+        min-height: 0;
+        margin-bottom: 3px;
+        padding: 0;
+    }
+
+    .checkout_info .form .col.left .name,
+    .checkout_info .form .col.right .name
+    {
+        width: 100%;
+    }
+
+    .checkout_info .form .field,
+    .checkout_info .form .col.right .field
+    {
+        width: 100%;
+    }
+
+
+
+    .form .line
+    {
+        margin-bottom: 15px;
+    }
+
+    .form .submit
+    {
+        padding-top: 5px;
+    }
+
+    .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer
+    {
+        padding-top: 50px;
+    }
+
+    footer .logo
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer .logo img
+    {
+        margin-left: auto;
+    }
+
+
+    footer .info
+    {
+        width: 100%;
+        padding: 0;
+
+        text-align: center;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}

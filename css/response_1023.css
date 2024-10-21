@@ -1,0 +1,199 @@
+@media (max-width: 1023px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    #catalog_modal ul
+    {
+        margin-bottom: -30px;
+        padding: 0;
+    }
+
+    #catalog_modal ul li
+    {
+        margin-bottom: 30px;
+    }
+
+    #catalog_modal ul li a
+    {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+
+    header .logo .slogan
+    {
+        display: block;
+    }
+
+
+    header .links
+    {
+        position: absolute;
+        z-index: 999;
+        top: -30px;
+        left: 0;
+
+        display: none;
+
+        width: 100%;
+        height: 100vh;
+        min-height: 600px;
+        padding: 110px 20px 40px;
+
+        background: #000;
+    }
+
+    header .links .item
+    {
+        display: block;
+
+        width: 100%;
+    }
+
+    header .links .item + .item
+    {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    header .links .item a
+    {
+        font-size: 18px;
+        line-height: normal;
+
+        display: block;
+
+        text-align: center;
+    }
+
+    header .links .item a.search_link
+    {
+        display: none;
+    }
+
+    header .mob_search
+    {
+        display: block;
+    }
+
+    header .menu_link
+    {
+        display: block;
+    }
+
+
+    header.dark .links .item a
+    {
+        color: #fff;
+    }
+
+
+    header .cart
+    {
+        margin-top: 50px;
+
+        text-align: center;
+    }
+
+    header.dark .cart_link
+    {
+        background: url(../images/ic_cart_link_light.png) 0 50% no-repeat;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+    aside
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_slider .slide .cont
+    {
+        height: auto;
+        min-height: 100vh;
+        padding-top: 160px;
+        padding-bottom: 80px;
+    }
+
+    .main_slider .slide .info
+    {
+        width: calc(100% - 150px);
+    }
+
+    .main_slider .slide .title
+    {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+
+
+    .content,
+    .content.no_padding
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+    .content .block
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    .checkout_info .form .col.left,
+    .checkout_info .form .col.right
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer
+    {
+        padding: 60px 0 30px;
+    }
+
+
+    footer .logo
+    {
+        width: 33.333%;
+    }
+
+    footer .logo img
+    {
+        margin-left: 0;
+    }
+
+
+    footer .info
+    {
+        width: 66.666%;
+        padding: 0;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}
