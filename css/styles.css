@@ -2059,6 +2059,21 @@ aside .advantages .desc
     background: currentColor;
 }
 
+.product_info .delivery .green:before
+{
+    background: #77ba86;
+}
+
+.product_info .delivery .orange:before
+{
+    color: #ff6b1b;
+}
+
+.product_info .delivery .red:before
+{
+    color: #e31614;
+}
+
 
 .product_info .buy_link
 {
