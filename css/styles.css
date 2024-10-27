@@ -2057,6 +2057,9 @@ aside .advantages .desc
 
     border-radius: 50%;
     background: currentColor;
+
+            filter: blur(1px);
+    -webkit-filter: blur(1px);
 }
 
 .product_info .delivery .green:before
