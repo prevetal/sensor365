@@ -2280,6 +2280,17 @@ aside .advantages .desc
 .product_info .added.show
 {
     display: flex;
+
+    animation: show .5s;
+}
+
+
+@keyframes show
+{
+    0%
+    {
+        opacity: 0;
+    }
 }
 
 
