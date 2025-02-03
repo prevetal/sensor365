@@ -108,6 +108,19 @@
     }
 
 
+    .products .product .in_stock
+    {
+        top: 0;
+        left: 100%;
+
+        flex-wrap: nowrap;
+
+        margin-top: 0;
+        margin-left: 12px;
+
+        white-space: nowrap;
+    }
+
 
     .products .product .info
     {

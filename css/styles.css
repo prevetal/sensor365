@@ -1677,14 +1677,42 @@ aside .advantages .desc
 
 .products .product .thumb
 {
+    position: relative;
+
     width: 100px;
 }
 
-.products .product .thumb img
+.products .product .thumb > img
 {
     display: block;
 
     width: 100%;
+}
+
+
+.products .product .in_stock
+{
+    position: absolute;
+    z-index: 5;
+    top: 100%;
+    left: 0;
+
+    margin-top: 12px;
+
+    pointer-events: none;
+
+    gap: 7px;
+}
+
+
+.products .product .in_stock .icon
+{
+    display: block;
+
+    width: 22px;
+    height: 24px;
+
+    background: url(../images/ic_in_stock.svg) 50%/ 100% 100% no-repeat;
 }
 
 
@@ -1951,6 +1979,8 @@ aside .advantages .desc
 
 .product_info .image
 {
+    position: relative;
+
     width: 400px;
     max-width: 100%;
 }
@@ -1976,6 +2006,28 @@ aside .advantages .desc
 
     max-width: 100%;
     max-height: 100%;
+}
+
+
+.product_info .in_stock
+{
+    position: absolute;
+    z-index: 5;
+    top: 15px;
+    right: 15px;
+
+    pointer-events: none;
+}
+
+
+.product_info .in_stock .icon
+{
+    display: block;
+
+    width: 22px;
+    height: 24px;
+
+    background: url(../images/ic_in_stock.svg) 50%/ 100% 100% no-repeat;
 }
 
 
@@ -2665,6 +2717,8 @@ aside .advantages .desc
 
 .recommended_products .thumb
 {
+    position: relative;
+
     display: flex;
     align-content: center;
     align-items: center;
@@ -2680,12 +2734,42 @@ aside .advantages .desc
 }
 
 
-.recommended_products .thumb img
+.recommended_products .thumb > img
 {
     display: block;
 
     max-width: 100%;
     max-height: 100%;
+}
+
+
+.recommended_products .in_stock
+{
+    font-family: 'Fira Sans';
+    font-size: 12px;
+    font-weight: 400;
+
+    position: absolute;
+    z-index: 5;
+    top: 10px;
+    right: 10px;
+
+    text-align: center;
+    pointer-events: none;
+
+    color: #369049;
+}
+
+
+.recommended_products .in_stock .icon
+{
+    display: block;
+
+    width: 22px;
+    height: 24px;
+    margin: 0 auto 4px;
+
+    background: url(../images/ic_in_stock.svg) 50%/ 100% 100% no-repeat;
 }
 
 
