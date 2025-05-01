@@ -547,13 +547,53 @@ header .links .item a.search_link.active img
 
 
 
+header .links .bottom
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    width: 100%;
+    margin-top: 15px;
+
+    gap: 16px;
+}
+
+
+
+header .favorites_link
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 38px;
+    height: 38px;
+
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+header .favorites_link svg
+{
+    display: block;
+
+    width: 29px;
+    height: 29px;
+}
+
+
+
 header .cart
 {
     position: relative;
     z-index: 9;
-
-    width: 100%;
-    margin-top: 15px;
 
     text-align: right;
 }
@@ -675,6 +715,53 @@ header .mob_search form .submit_btn:hover
 
 
 
+header .mob_btns
+{
+    display: none;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    width: 100%;
+    margin-top: 8px;
+}
+
+
+header .mob_btns a
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 48px;
+    height: 48px;
+
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+header .mob_btns .favorites_link svg,
+header .mob_btns .cart_link img
+{
+    width: 24px;
+    height: 24px;
+}
+
+
+header .mob_btns .cart_link
+{
+    padding: 0;
+
+    background: none !important;
+}
+
+
+
 header.light,
 header.light .links .item a,
 header.light .catalog_link,
@@ -751,6 +838,53 @@ header.dark .cart_link
 
     background: #000;
 }
+
+
+#catalog_modal .links
+{
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    font-weight: 700;
+
+    position: absolute;
+    right: 24px;
+    bottom: 100%;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin-bottom: 68px;
+
+    text-transform: uppercase;
+
+    gap: 52px;
+}
+
+
+#catalog_modal .links a
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    text-decoration: none;
+
+    color: #fff;
+
+    gap: 8px;
+}
+
+
+#catalog_modal .links svg
+{
+    display: block;
+}
+
 
 #catalog_modal ul
 {
@@ -1891,6 +2025,61 @@ aside .advantages .desc
 }
 
 
+.products .product .favorite_btn
+{
+    font-family: 'Fira Sans';
+    font-size: 12px;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin: 0 auto 10px;
+
+    cursor: pointer;
+    transition: color .2s linear;
+
+    border: none;
+    background: none;
+
+    gap: 8px;
+}
+
+
+.products .product .favorite_btn svg,
+.products .product .favorite_btn span
+{
+    display: block;
+}
+
+
+.products .product .favorite_btn svg + svg,
+.products .product .favorite_btn span + span
+{
+    display: none;
+}
+
+
+.products .product .favorite_btn.active
+{
+    color: #ff0200;
+}
+
+.products .product .favorite_btn.active svg,
+.products .product .favorite_btn.active span
+{
+    display: none;
+}
+
+.products .product .favorite_btn.active svg + svg,
+.products .product .favorite_btn.active span + span
+{
+    display: block;
+}
+
+
 .products .product .buy_btn
 {
     font-family: 'Fira Sans';
@@ -1977,7 +2166,7 @@ aside .advantages .desc
 }
 
 
-.product_info .image
+.product_info .images
 {
     position: relative;
 
@@ -1986,7 +2175,7 @@ aside .advantages .desc
 }
 
 
-.product_info .image .img
+.product_info .images .img
 {
     display: flex;
     align-content: center;
@@ -1994,18 +2183,98 @@ aside .advantages .desc
     flex-wrap: wrap;
     justify-content: center;
 
-    height: 415px;
-
-    border: 1px solid #c5c5c5;
+    height: 400px;
 }
 
 
-.product_info .image .img img
+.product_info .images .img img
 {
     display: block;
 
     max-width: 100%;
     max-height: 100%;
+}
+
+
+.product_info .images .big
+{
+    border: 1px solid #d9d9d9;
+    border-bottom-width: 38px;
+}
+
+
+.product_info .images .thumbs
+{
+    overflow: hidden;
+
+    margin-top: 20px;
+    padding: 0 38px;
+}
+
+
+.product_info .images .thumbs .swiper
+{
+    overflow: visible !important;
+}
+
+
+.product_info .images .thumbs .swiper-button-next,
+.product_info .images .thumbs .swiper-button-prev
+{
+    top: 0;
+    bottom: 0;
+
+    width: 32px;
+    height: 100%;
+    margin: 0;
+
+    transition: .2s linear;
+
+    color: #000;
+    border-radius: 3px;
+    background: #f5f5f3;
+}
+
+
+.product_info .images .thumbs .swiper-button-prev
+{
+    right: 0;
+    left: -38px;
+}
+
+
+.product_info .images .thumbs .swiper-button-next
+{
+    right: -38px;
+}
+
+
+.product_info .images .thumbs .swiper-button-next:hover,
+.product_info .images .thumbs .swiper-button-prev:hover
+{
+    color: #fff;
+    background: #000;
+}
+
+
+.product_info .images .thumbs .img
+{
+    height: 100px;
+    padding: 4px;
+
+    cursor: pointer;
+    transition: border-color .2s linear;
+
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    background: #f1f1f1;
+}
+
+
+.product_info .images .thumbs .img:hover,
+.product_info .images .thumbs .swiper-slide-thumb-active .img
+{
+    border-color: #f00;
 }
 
 
@@ -2311,6 +2580,64 @@ aside .advantages .desc
 
     width: 24px;
     height: 21px;
+}
+
+
+
+.product_info .favorite_btn
+{
+    font-family: 'Fira Sans';
+    font-size: 12px;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 261px;
+    max-width: 100%;
+    padding: 17px 0;
+
+    cursor: pointer;
+    transition: color .2s linear;
+
+    border: none;
+    background: none;
+
+    gap: 8px;
+}
+
+
+.product_info .favorite_btn svg,
+.product_info .favorite_btn span
+{
+    display: block;
+}
+
+
+.product_info .favorite_btn svg + svg,
+.product_info .favorite_btn span + span
+{
+    display: none;
+}
+
+
+.product_info .favorite_btn.active
+{
+    color: #ff0200;
+}
+
+.product_info .favorite_btn.active svg,
+.product_info .favorite_btn.active span
+{
+    display: none;
+}
+
+.product_info .favorite_btn.active svg + svg,
+.product_info .favorite_btn.active span + span
+{
+    display: block;
 }
 
 
@@ -2782,6 +3109,243 @@ aside .advantages .desc
 .recommended_products .product:hover .thumb
 {
     border-color: #f00;
+}
+
+
+
+.viewed_products
+{
+    margin-bottom: 80px;
+}
+
+
+.viewed_products .block_title
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    min-height: 48px;
+    padding-right: 150px;
+}
+
+
+.viewed_products .swiper
+{
+    overflow: visible !important;
+}
+
+
+.viewed_products .swiper-slide
+{
+    position: relative;
+
+    visibility: hidden;
+
+    transition: opacity .2s linear, visibility .2s linear;
+    pointer-events: none;
+
+    opacity: 0;
+}
+
+
+.viewed_products .swiper-slide.visible
+{
+    visibility: visible;
+
+    pointer-events: auto;
+
+    opacity: 1;
+}
+
+
+.viewed_products .swiper-pagination
+{
+    display: none;
+}
+
+
+
+.viewed_products .product
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 9px 9px 31px;
+
+    transition: border-color .2s linear;
+
+    border: 1px solid #dedede;
+    background: #fff;
+}
+
+
+.viewed_products .product:hover
+{
+    border-color: #ff0200;
+}
+
+
+.viewed_products .product .info
+{
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+
+    padding: 0 12px;
+}
+
+
+.viewed_products .product .in_stock
+{
+    font-family: 'Fira Sans';
+    font-size: 12px;
+    font-weight: 600;
+
+    position: absolute;
+    z-index: 3;
+    top: 11px;
+    left: 11px;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    text-align: center;
+    pointer-events: none;
+
+    color: #369049;
+
+    gap: 11px;
+}
+
+
+.viewed_products .product .in_stock .icon
+{
+    display: block;
+
+    width: 22px;
+    height: 24px;
+
+    background: url(../images/ic_in_stock.svg) 50%/ 100% 100% no-repeat;
+}
+
+
+.viewed_products .product .thumb
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 230px;
+    margin-bottom: 30px;
+
+    text-decoration: none;
+}
+
+
+.viewed_products .product .thumb img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.viewed_products .product .name
+{
+    font-family: 'Fira Sans';
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 135%;
+
+    flex: 1 0 auto;
+}
+
+
+.viewed_products .product .name a
+{
+    display: inline-block;
+
+    transition: color .2s linear;
+    vertical-align: top;
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+.viewed_products .product .name a:hover
+{
+    color: #f00;
+}
+
+
+.viewed_products .product .delivery
+{
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    font-weight: 500;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-top: 13px;
+}
+
+
+.viewed_products .product .delivery span
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.viewed_products .product .delivery .green
+{
+    color: #369049;
+}
+
+.viewed_products .product .delivery .orange
+{
+    color: #ff6b1b;
+}
+
+.viewed_products .product .delivery .red
+{
+    color: #ff0200;
+}
+
+
+.viewed_products .product .buy_btn
+{
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 109.998%;
+
+    width: 100%;
+    height: 42px;
+    margin-top: 16px;
+
+    cursor: pointer;
+    text-transform: uppercase;
+
+    color: #fff;
+    border: none;
+    background: #ff0200;
 }
 
 

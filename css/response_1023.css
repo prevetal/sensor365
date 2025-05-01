@@ -95,10 +95,22 @@
     }
 
 
-    header .cart
+    header .links .bottom
     {
         margin-top: 50px;
 
+        gap: 14px;
+    }
+
+
+    header .favorites_link
+    {
+        color: #fff;
+    }
+
+
+    header .cart
+    {
         text-align: center;
     }
 
@@ -161,6 +173,32 @@
     .checkout_info .form .col.right
     {
         width: 100%;
+    }
+
+
+
+    .product_info .images .thumbs
+    {
+        padding: 0 52px;
+    }
+
+
+    .product_info .images .thumbs .swiper-button-next,
+    .product_info .images .thumbs .swiper-button-prev
+    {
+        width: 48px;
+    }
+
+
+    .product_info .images .thumbs .swiper-button-prev
+    {
+        left: -52px;
+    }
+
+
+    .product_info .images .thumbs .swiper-button-next
+    {
+        right: -52px;
     }
 
 

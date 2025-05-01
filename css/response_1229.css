@@ -60,6 +60,13 @@
         padding-top: 110px;
     }
 
+    #catalog_modal .links
+    {
+        right: 20px;
+
+        margin-bottom: 58px;
+    }
+
     #catalog_modal ul li
     {
         padding-right: 0;
@@ -137,15 +144,21 @@
     }
 
 
-    .product_info .image
+    .product_info .images
     {
         width: 328px;
     }
 
 
-    .product_info .image .img
+    .product_info .images .img
     {
         height: 328px;
+    }
+
+
+    .product_info .images .thumbs .img
+    {
+        height: 76px;
     }
 
 

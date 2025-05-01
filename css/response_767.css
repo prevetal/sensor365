@@ -10,6 +10,13 @@
     }
 
 
+    .swiper-horizontal > .swiper-scrollbar,
+    .swiper-scrollbar.swiper-scrollbar-horizontal
+    {
+        margin-top: 20px;
+    }
+
+
 
     /*---------------
         Header
@@ -31,6 +38,19 @@
     #catalog_modal
     {
         padding-top: 80px;
+    }
+
+    #catalog_modal .links
+    {
+        margin-bottom: 31px;
+
+        gap: 40px;
+    }
+
+    #catalog_modal .links svg
+    {
+        height: 22px;
+        width: 22px;
     }
 
     #catalog_modal ul
@@ -137,14 +157,14 @@
 
 
 
-    .product_info .image
+    .product_info .images
     {
         width: 100%;
         margin-bottom: 20px;
     }
 
 
-    .product_info .image .img
+    .product_info .images .img
     {
         height: 280px;
     }
@@ -326,6 +346,19 @@
     .products .product .amount.show
     {
         display: flex;
+    }
+
+
+
+    .viewed_products
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .viewed_products .product
+    {
+        padding: 7px;
     }
 
 

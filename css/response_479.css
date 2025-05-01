@@ -26,7 +26,7 @@
     ---------------*/
     header
     {
-        padding: 20px 0;
+        padding: 20px 0 8px;
     }
 
 
@@ -42,6 +42,21 @@
     {
         height: auto;
         min-height: 100vh;
+    }
+
+    #catalog_modal .links
+    {
+        font-size: 11px;
+
+        margin-bottom: 42px;
+
+        gap: 20px;
+    }
+
+    #catalog_modal .links svg
+    {
+        width: 18px;
+        height: 18px;
     }
 
     #catalog_modal ul
@@ -69,6 +84,18 @@
     header.dark .links .item a
     {
         color: #fff;
+    }
+
+
+    header .links .bottom
+    {
+        display: none;
+    }
+
+
+    header .mob_btns
+    {
+        display: flex;
     }
 
 
@@ -303,6 +330,34 @@
     .form .submit_btn
     {
         width: 100%;
+    }
+
+
+
+    .viewed_products .swiper-slide
+    {
+        width: 228px;
+    }
+
+
+    .viewed_products .swiper-button-next,
+    .viewed_products .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+    .viewed_products .product .thumb
+    {
+        height: 212px;
+        margin-bottom: 16px;
+    }
+
+
+
+    .product_info .images .thumbs .img
+    {
+        height: 100px;
     }
 
 
