@@ -2497,6 +2497,64 @@ aside .advantages .desc
 
 
 
+.product_info .favorite_btn
+{
+    font-family: 'Fira Sans';
+    font-size: 12px;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 261px;
+    max-width: 100%;
+    margin-top: 16px;
+
+    cursor: pointer;
+    transition: color .2s linear;
+
+    border: none;
+    background: none;
+
+    gap: 8px;
+}
+
+
+.product_info .favorite_btn svg,
+.product_info .favorite_btn span
+{
+    display: block;
+}
+
+
+.product_info .favorite_btn svg + svg,
+.product_info .favorite_btn span + span
+{
+    display: none;
+}
+
+
+.product_info .favorite_btn.active
+{
+    color: #ff0200;
+}
+
+.product_info .favorite_btn.active svg,
+.product_info .favorite_btn.active span
+{
+    display: none;
+}
+
+.product_info .favorite_btn.active svg + svg,
+.product_info .favorite_btn.active span + span
+{
+    display: block;
+}
+
+
+
 .product_info .added
 {
     display: none;
