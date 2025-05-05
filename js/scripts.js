@@ -85,13 +85,16 @@ $(function(){
 			spaceBetween: 5,
 			breakpoints: {
 				0: {
-					slidesPerView: 'auto'
+					slidesPerView: 'auto',
+					slidesPerGroup: 1
 				},
 				480: {
-					slidesPerView: 2
+					slidesPerView: 2,
+					slidesPerGroup: 2
 				},
 				768: {
-					slidesPerView: 3
+					slidesPerView: 3,
+					slidesPerGroup: 3
 				}
 			},
 			on: {
