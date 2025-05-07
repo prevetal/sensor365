@@ -715,6 +715,57 @@ header .mob_search form .submit_btn:hover
 
 
 
+header .mob_btns
+{
+    position: absolute;
+    z-index: 101;
+    right: 72px;
+    bottom: 0;
+
+    display: none;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    gap: 12px;
+}
+
+
+header .mob_btns a
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+header .mob_btns .favorites_link svg,
+header .mob_btns .cart_link img
+{
+    width: 24px;
+    height: 24px;
+}
+
+
+header .mob_btns .cart_link
+{
+    padding: 0;
+
+    background: none !important;
+}
+
+
+
 header.light,
 header.light .links .item a,
 header.light .catalog_link,

@@ -87,6 +87,18 @@
     }
 
 
+    header .links .bottom
+    {
+        display: none;
+    }
+
+
+    header .mob_btns
+    {
+        display: flex;
+    }
+
+
 
     /*---------------
         Sidebar
