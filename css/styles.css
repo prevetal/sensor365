@@ -121,9 +121,9 @@ body
 
 .page_title
 {
-    font: 700 24px Fira Sans;
-
     margin-bottom: 30px;
+
+    font: 700 24px Fira Sans;
 
     text-align: center;
 
@@ -166,8 +166,6 @@ header .cont
 
 header .catalog_link
 {
-    font: 700 14px/17px Fira Sans;
-
     position: relative;
     z-index: 100;
 
@@ -175,6 +173,8 @@ header .catalog_link
 
     margin-left: -21px;
     padding-left: 55px;
+
+    font: 700 14px/17px Fira Sans;
 
     transition: .2s linear;
     text-decoration: none;
@@ -322,23 +322,23 @@ header .logo img.dark
 
 header .logo .slogan
 {
-    font: 14px/16px Fira Sans;
-
     margin-left: 30px;
+
+    font: 14px/16px Fira Sans;
 }
 
 
 
 header .menu_link
 {
-    font: 700 14px/17px Fira Sans;
-
     position: relative;
     z-index: 100;
 
     display: none;
 
     padding-left: 40px;
+
+    font: 700 14px/17px Fira Sans;
 
     transition: .2s linear;
     text-decoration: none;
@@ -462,13 +462,13 @@ header .links .item + .item
 
 header .links .item a
 {
-    font: 700 14px/17px Fira Sans;
-
     position: relative;
     position: relative;
     z-index: 100;
 
     display: inline-block;
+
+    font: 700 14px/17px Fira Sans;
 
     transition: color .2s linear;
     vertical-align: top;
@@ -614,8 +614,6 @@ header .cart_link
 
 header .cart_link .count
 {
-    font: 600 14px/23px Fira Sans;
-
     position: absolute;
     top: -3px;
     left: 20px;
@@ -625,6 +623,8 @@ header .cart_link .count
     width: 23px;
     height: 23px;
 
+    font: 600 14px/23px Fira Sans;
+
     text-align: center;
 
     border-radius: 50%;
@@ -633,12 +633,12 @@ header .cart_link .count
 
 header .cart_link .btn
 {
-    font: 500 16px/38px Fira Sans;
-
     display: inline-block;
 
     height: 38px;
     padding: 0 19px;
+
+    font: 500 16px/38px Fira Sans;
 
     text-align: center;
     text-align: center;
@@ -668,12 +668,12 @@ header .mob_search form
 
 header .mob_search form .input
 {
-    font: 14px Fira Sans;
-
     display: block;
 
     width: 100%;
     height: 48px;
+
+    font: 14px Fira Sans;
 
     color: #fff;
     border: none;
@@ -690,11 +690,11 @@ header .mob_search form .submit
 
 header .mob_search form .submit_btn
 {
-    font: 700 14px/48px Fira Sans;
-
     display: inline-block;
 
     height: 48px;
+
+    font: 700 14px/48px Fira Sans;
 
     cursor: pointer;
     transition: color .2s linear;
@@ -842,10 +842,6 @@ header.dark .cart_link
 
 #catalog_modal .links
 {
-    font-family: 'Fira Sans';
-    font-size: 14px;
-    font-weight: 700;
-
     position: absolute;
     right: 24px;
     bottom: 100%;
@@ -857,6 +853,10 @@ header.dark .cart_link
     justify-content: flex-start;
 
     margin-bottom: 68px;
+
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    font-weight: 700;
 
     text-transform: uppercase;
 
@@ -912,9 +912,9 @@ header.dark .cart_link
 
 #catalog_modal ul li a
 {
-    font: 16px/18px Fira Sans;
-
     display: inline-block;
+
+    font: 16px/18px Fira Sans;
 
     transition: .2s linear;
     vertical-align: top;
@@ -974,9 +974,9 @@ header.dark .cart_link
 
 #search_modal form .name
 {
-    font: 18px/18px Fira Sans;
-
     margin-bottom: 65px;
+
+    font: 18px/18px Fira Sans;
 
     text-align: left;
 
@@ -985,12 +985,12 @@ header.dark .cart_link
 
 #search_modal form .input
 {
-    font: 14px Fira Sans;
-
     display: block;
 
     width: 100%;
     height: 24px;
+
+    font: 14px Fira Sans;
 
     color: #000;
     border: none;
@@ -1005,11 +1005,11 @@ header.dark .cart_link
 
 #search_modal form .submit_btn
 {
-    font: 700 14px Fira Sans;
-
     display: inline-block;
 
     height: 24px;
+
+    font: 700 14px Fira Sans;
 
     cursor: pointer;
     transition: color .2s linear;
@@ -1056,9 +1056,9 @@ aside .block + .block
 
 aside .block_title
 {
-    font: 700 24px/30px Fira Sans;
-
     margin-bottom: 25px;
+
+    font: 700 24px/30px Fira Sans;
 
     text-align: left;
 
@@ -1069,8 +1069,6 @@ aside .block_title
 
 aside .block ul li
 {
-    font: 700 14px/18px Fira Sans;
-
     position: relative;
 
     display: block;
@@ -1078,6 +1076,8 @@ aside .block ul li
     padding-left: 40px;
 
     list-style: none;
+
+    font: 700 14px/18px Fira Sans;
 
     color: #000;
 }
@@ -1190,10 +1190,10 @@ aside .block .filter .item + .item
 
 aside .block .filter .item .name
 {
+    margin-bottom: 5px;
+
     font-size: 14px;
     font-weight: normal;
-
-    margin-bottom: 5px;
 }
 
 aside .block .filter .line + .line
@@ -1209,16 +1209,16 @@ aside .block .filter input[type=checkbox]
 
 aside .block .filter label
 {
-    font-size: 13px;
-    font-weight: normal;
-    line-height: 14px;
-
     position: relative;
 
     display: table-cell;
 
     height: 14px;
     padding-left: 22px;
+
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 14px;
 
     cursor: pointer;
     transition: .2s linear;
@@ -1264,11 +1264,11 @@ aside .advantages .items
 
 aside .advantages .item
 {
-    font: 14px/18px Fira Sans;
-
     position: relative;
 
     padding-left: 40px;
+
+    font: 14px/18px Fira Sans;
 
     color: #505050;
 }
@@ -1280,11 +1280,11 @@ aside .advantages .item + .item
 
 aside .advantages .item:before
 {
-    font: 700 24px/30px Fira Sans;
-
     position: absolute;
     top: 0;
     left: 0;
+
+    font: 700 24px/30px Fira Sans;
 
     content: counter(div)')';
     counter-increment: div;
@@ -1374,21 +1374,21 @@ aside .advantages .desc
 
 .main_slider .slide .info
 {
-    font: 14px/24px Fira Sans;
-
     width: 800px;
     max-width: 100%;
+
+    font: 14px/24px Fira Sans;
 
     transition: color .2s linear;
 }
 
 .main_slider .slide .title
 {
+    margin-bottom: 20px;
+
     font-size: 36px;
     font-weight: 700;
     line-height: 48px;
-
-    margin-bottom: 20px;
 
     transition: color .2s linear;
     letter-spacing: .05em;
@@ -1465,9 +1465,9 @@ aside .advantages .desc
 
 .content .block_title
 {
-    font: 700 24px/30px Fira Sans;
-
     margin-bottom: 25px;
+
+    font: 700 24px/30px Fira Sans;
 
     text-align: left;
 
@@ -1501,9 +1501,9 @@ aside .advantages .desc
 
 .articles .item .date
 {
-    font-size: 12px;
-
     margin-bottom: 3px;
+
+    font-size: 12px;
 
     color: #989898;
 }
@@ -1515,9 +1515,9 @@ aside .advantages .desc
 
 .articles .item .name a
 {
-    font-weight: 700;
-
     display: inline-block;
+
+    font-weight: 700;
 
     transition: .2s linear;
     vertical-align: top;
@@ -1587,9 +1587,9 @@ aside .advantages .desc
 
 .sub_categories li a
 {
-    font: 16px/18px Fira Sans;
-
     display: inline-block;
+
+    font: 16px/18px Fira Sans;
 
     transition: .2s linear;
     vertical-align: top;
@@ -1617,11 +1617,11 @@ aside .advantages .desc
 
 .select_brand > a
 {
-    font: 700 13px/30px Fira Sans;
-
     display: inline-block;
 
     padding-right: 25px;
+
+    font: 700 13px/30px Fira Sans;
 
     transition: .2s linear;
     vertical-align: top;
@@ -1676,11 +1676,11 @@ aside .advantages .desc
 
 #select_brand li
 {
-    font: 14px Fira Sans;
-
     padding: 0;
 
     list-style: none;
+
+    font: 14px Fira Sans;
 }
 
 #select_brand li:before
@@ -1714,18 +1714,18 @@ aside .advantages .desc
 
 .sorting
 {
-    font: 14px/14px Fira Sans;
-
     margin-bottom: 10px;
+
+    font: 14px/14px Fira Sans;
 
     color: #000;
 }
 
 .sorting a
 {
-    font-weight: 700;
-
     margin-left: 12px;
+
+    font-weight: 700;
 
     color: #000;
 }
@@ -1800,10 +1800,10 @@ aside .advantages .desc
 
 .products .product .name
 {
-    font: 700 16px/18px Fira Sans;
-
     width: 100%;
     margin-bottom: 20px;
+
+    font: 700 16px/18px Fira Sans;
 
     color: #000;
 }
@@ -1833,8 +1833,6 @@ aside .advantages .desc
 
     margin-top: 12px;
 
-    pointer-events: none;
-
     gap: 7px;
 }
 
@@ -1850,13 +1848,64 @@ aside .advantages .desc
 }
 
 
+.products .product .in_stock .tooltip
+{
+    position: absolute;
+    z-index: 3;
+    bottom: 100%;
+    left: 4px;
+
+    display: none;
+
+    margin-bottom: 8px;
+    padding: 8px 12px;
+
+    font-family: 'Fira Sans';
+    font-size: 13px;
+    font-weight: 600;
+
+    white-space: nowrap;
+
+    color: #369049;
+    border-radius: 5px;
+    background: #fff;
+
+    filter: drop-shadow(0 3px 10.1px rgba(173, 191, 201, .70));
+}
+
+
+.products .product .in_stock .tooltip:after
+{
+    position: absolute;
+    top: 100%;
+    left: 4px;
+
+    display: block;
+
+    width: 6px;
+    height: 6px;
+
+    content: '';
+
+    border-top: 6px solid #fff;
+    border-right: 3px solid transparent;
+    border-left: 3px solid transparent;
+}
+
+
+.products .product .in_stock:hover .tooltip
+{
+    display: block;
+}
+
+
 .products .product .info
 {
-    font: 14px/20px Fira Sans;
-
     width: calc(100% - 319px);
     margin-right: auto;
     margin-left: 25px;
+
+    font: 14px/20px Fira Sans;
 
     color: #505050;
 }
@@ -1898,10 +1947,10 @@ aside .advantages .desc
 
 .products .product .delivery span
 {
+    display: block;
+
     font-size: 17px;
     font-weight: 600;
-
-    display: block;
 }
 
 
@@ -2008,14 +2057,14 @@ aside .advantages .desc
 
 .products .product .amount .input
 {
-    font-family: 'Fira Sans';
-    font-size: 15px;
-
     display: block;
 
     width: 70px;
     height: 42px;
     margin: 0 -1px;
+
+    font-family: 'Fira Sans';
+    font-size: 15px;
 
     text-align: center;
 
@@ -2027,9 +2076,6 @@ aside .advantages .desc
 
 .products .product .favorite_btn
 {
-    font-family: 'Fira Sans';
-    font-size: 12px;
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -2037,6 +2083,9 @@ aside .advantages .desc
     justify-content: center;
 
     margin: 0 auto 10px;
+
+    font-family: 'Fira Sans';
+    font-size: 12px;
 
     cursor: pointer;
     transition: color .2s linear;
@@ -2082,11 +2131,6 @@ aside .advantages .desc
 
 .products .product .buy_btn
 {
-    font-family: 'Fira Sans';
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 109.998%;
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -2096,6 +2140,11 @@ aside .advantages .desc
     width: 100%;
     height: 42px;
     margin-top: 8px;
+
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 109.998%;
 
     cursor: pointer;
     text-align: center;
@@ -2109,10 +2158,6 @@ aside .advantages .desc
 
 .products .product .cart_link
 {
-    font-family: 'Fira Sans';
-    font-size: 15px;
-    font-weight: 600;
-
     display: none;
     align-content: center;
     align-items: center;
@@ -2121,6 +2166,10 @@ aside .advantages .desc
 
     height: 42px;
     margin-top: 8px;
+
+    font-family: 'Fira Sans';
+    font-size: 15px;
+    font-weight: 600;
 
     text-align: center;
     text-decoration: none;
@@ -2132,11 +2181,11 @@ aside .advantages .desc
 
 .products .product .cart_link small
 {
-    font-size: 12px;
-
     display: block;
 
     width: 100%;
+
+    font-size: 12px;
 }
 
 
@@ -2284,8 +2333,6 @@ aside .advantages .desc
     z-index: 5;
     top: 15px;
     right: 15px;
-
-    pointer-events: none;
 }
 
 
@@ -2297,6 +2344,57 @@ aside .advantages .desc
     height: 24px;
 
     background: url(../images/ic_in_stock.svg) 50%/ 100% 100% no-repeat;
+}
+
+
+.product_info .in_stock .tooltip
+{
+    position: absolute;
+    z-index: 3;
+    right: 4px;
+    bottom: 100%;
+
+    display: none;
+
+    margin-bottom: 8px;
+    padding: 8px 12px;
+
+    font-family: 'Fira Sans';
+    font-size: 13px;
+    font-weight: 600;
+
+    white-space: nowrap;
+
+    color: #369049;
+    border-radius: 5px;
+    background: #fff;
+
+    filter: drop-shadow(0 3px 10.1px rgba(173, 191, 201, .70));
+}
+
+
+.product_info .in_stock .tooltip:after
+{
+    position: absolute;
+    top: 100%;
+    right: 4px;
+
+    display: block;
+
+    width: 6px;
+    height: 6px;
+
+    content: '';
+
+    border-top: 6px solid #fff;
+    border-right: 3px solid transparent;
+    border-left: 3px solid transparent;
+}
+
+
+.product_info .in_stock:hover .tooltip
+{
+    display: block;
 }
 
 
@@ -2333,15 +2431,15 @@ aside .advantages .desc
 
 .product_info .delivery span
 {
-    font-size: 17px;
-    font-weight: 600;
-
     position: relative;
 
     display: block;
 
     margin-top: 7px;
     padding-left: 20px;
+
+    font-size: 17px;
+    font-weight: 600;
 }
 
 
@@ -2401,13 +2499,13 @@ aside .advantages .desc
 
 .product_info .buy_link
 {
-    font: 700 14px/14px Fira Sans;
-
     display: inline-block;
 
     margin-top: 25px;
     padding-top: 1px;
     padding-right: 20px;
+
+    font: 700 14px/14px Fira Sans;
 
     vertical-align: top;
     text-decoration: none;
@@ -2456,22 +2554,22 @@ aside .advantages .desc
 
 #buy_form .name
 {
-    font: 14px Fira Sans;
-
     margin-bottom: 7px;
+
+    font: 14px Fira Sans;
 
     color: #fff;
 }
 
 #buy_form .input
 {
-    font: 14px Fira Sans;
-
     display: block;
 
     width: 100%;
     height: 40px;
     padding: 0 11px;
+
+    font: 14px Fira Sans;
 
     color: #000;
     border: none;
@@ -2480,14 +2578,14 @@ aside .advantages .desc
 
 #buy_form textarea
 {
-    font: 14px Fira Sans;
-
     display: block;
     display: block;
 
     width: 100%;
     height: 140px;
     padding: 11px;
+
+    font: 14px Fira Sans;
 
     resize: none;
 
@@ -2503,11 +2601,11 @@ aside .advantages .desc
 
 #buy_form .file label
 {
-    font: 13px/18px Fira Sans;
-
     display: inline-block;
 
     padding: 10px 0 10px 24px;
+
+    font: 13px/18px Fira Sans;
 
     cursor: pointer;
     vertical-align: top;
@@ -2525,9 +2623,9 @@ aside .advantages .desc
 
 #buy_form .submit_btn
 {
-    font: 700 14px/30px Fira Sans;
-
     display: inline-block;
+
+    font: 700 14px/30px Fira Sans;
 
     cursor: pointer;
     vertical-align: top;
@@ -2548,11 +2646,6 @@ aside .advantages .desc
 
 .product_info .buy_btn
 {
-    font-family: 'Fira Sans';
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 109.998%;
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -2562,6 +2655,11 @@ aside .advantages .desc
     width: 261px;
     height: 49px;
     margin-top: 40px;
+
+    font-family: 'Fira Sans';
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 109.998%;
 
     cursor: pointer;
 
@@ -2586,9 +2684,6 @@ aside .advantages .desc
 
 .product_info .favorite_btn
 {
-    font-family: 'Fira Sans';
-    font-size: 12px;
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -2598,6 +2693,9 @@ aside .advantages .desc
     width: 261px;
     max-width: 100%;
     padding: 17px 0;
+
+    font-family: 'Fira Sans';
+    font-size: 12px;
 
     cursor: pointer;
     transition: color .2s linear;
@@ -2675,10 +2773,6 @@ aside .advantages .desc
 
 .product_info .cart_link
 {
-    font-family: 'Fira Sans';
-    font-size: 15px;
-    font-weight: 600;
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -2687,6 +2781,10 @@ aside .advantages .desc
 
     width: 101px;
     height: 48px;
+
+    font-family: 'Fira Sans';
+    font-size: 15px;
+    font-weight: 600;
 
     text-align: center;
     text-decoration: none;
@@ -2698,9 +2796,9 @@ aside .advantages .desc
 
 .product_info .cart_link small
 {
-    font-size: 12px;
-
     display: block;
+
+    font-size: 12px;
 }
 
 
@@ -2765,13 +2863,13 @@ aside .advantages .desc
 
 .product_info .amount .input
 {
-    font-family: 'Fira Sans';
-    font-size: 15px;
-
     display: block;
 
     width: 52px;
     height: 48px;
+
+    font-family: 'Fira Sans';
+    font-size: 15px;
 
     text-align: center;
 
@@ -2784,13 +2882,13 @@ aside .advantages .desc
 
 .product_info .exp
 {
+    width: 100%;
+    margin-top: 60px;
+
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
     line-height: 180%;
-
-    width: 100%;
-    margin-top: 60px;
 
     color: #000;
 }
@@ -2827,13 +2925,13 @@ aside .advantages .desc
 
 .product_info .tabs li
 {
-    font-family: 'Fira Sans';
-    font-size: 18px;
-    font-weight: 600;
-
     display: block;
 
     list-style-type: none;
+
+    font-family: 'Fira Sans';
+    font-size: 18px;
+    font-weight: 600;
 
     cursor: pointer;
 }
@@ -2864,13 +2962,13 @@ aside .advantages .desc
 
 .product_info .tab_content
 {
-    font-family: 'Fira Sans';
-    font-size: 16px;
-    line-height: 145%;
-
     display: none;
 
     padding: 0 31px 15px;
+
+    font-family: 'Fira Sans';
+    font-size: 16px;
+    line-height: 145%;
 
     color: #505050;
     border-bottom: 1px solid #bdbdbd;
@@ -2879,9 +2977,9 @@ aside .advantages .desc
 
 .product_info .tab_content .feature
 {
-    font-weight: 600;
-
     margin-bottom: 20px;
+
+    font-weight: 600;
 
     color: #000;
 }
@@ -2998,6 +3096,13 @@ aside .advantages .desc
 }
 
 
+.recommended_products .swiper-button-next,
+.recommended_products .swiper-button-prev
+{
+    z-index: 0;
+}
+
+
 .recommended_products .swiper-slide
 {
     position: relative;
@@ -3029,11 +3134,11 @@ aside .advantages .desc
 
 .recommended_products .product
 {
+    display: block;
+
     font-family: 'Fira Sans';
     font-size: 15px;
     font-weight: 600;
-
-    display: block;
 
     transition: color .2s linear;
     text-decoration: none;
@@ -3072,17 +3177,16 @@ aside .advantages .desc
 
 .recommended_products .in_stock
 {
-    font-family: 'Fira Sans';
-    font-size: 12px;
-    font-weight: 400;
-
     position: absolute;
     z-index: 5;
     top: 10px;
     right: 10px;
 
+    font-family: 'Fira Sans';
+    font-size: 12px;
+    font-weight: 400;
+
     text-align: center;
-    pointer-events: none;
 
     color: #369049;
 }
@@ -3097,6 +3201,57 @@ aside .advantages .desc
     margin: 0 auto 4px;
 
     background: url(../images/ic_in_stock.svg) 50%/ 100% 100% no-repeat;
+}
+
+
+.recommended_products .in_stock .tooltip
+{
+    position: absolute;
+    z-index: 3;
+    right: 4px;
+    bottom: 100%;
+
+    display: none;
+
+    margin-bottom: 8px;
+    padding: 8px 12px;
+
+    font-family: 'Fira Sans';
+    font-size: 13px;
+    font-weight: 600;
+
+    white-space: nowrap;
+
+    color: #369049;
+    border-radius: 5px;
+    background: #fff;
+
+    filter: drop-shadow(0 3px 10.1px rgba(173, 191, 201, .70));
+}
+
+
+.recommended_products .in_stock .tooltip:after
+{
+    position: absolute;
+    top: 100%;
+    right: 4px;
+
+    display: block;
+
+    width: 6px;
+    height: 6px;
+
+    content: '';
+
+    border-top: 6px solid #fff;
+    border-right: 3px solid transparent;
+    border-left: 3px solid transparent;
+}
+
+
+.recommended_products .in_stock:hover .tooltip
+{
+    display: block;
 }
 
 
@@ -3202,10 +3357,6 @@ aside .advantages .desc
 
 .viewed_products .product .in_stock
 {
-    font-family: 'Fira Sans';
-    font-size: 12px;
-    font-weight: 600;
-
     position: absolute;
     z-index: 3;
     top: 11px;
@@ -3216,6 +3367,10 @@ aside .advantages .desc
     align-items: center;
     flex-wrap: wrap;
     justify-content: flex-start;
+
+    font-family: 'Fira Sans';
+    font-size: 12px;
+    font-weight: 600;
 
     text-align: center;
     pointer-events: none;
@@ -3263,12 +3418,12 @@ aside .advantages .desc
 
 .viewed_products .product .name
 {
+    flex: 1 0 auto;
+
     font-family: 'Fira Sans';
     font-size: 15px;
     font-weight: 600;
     line-height: 135%;
-
-    flex: 1 0 auto;
 }
 
 
@@ -3292,10 +3447,6 @@ aside .advantages .desc
 
 .viewed_products .product .delivery
 {
-    font-family: 'Fira Sans';
-    font-size: 14px;
-    font-weight: 500;
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -3303,6 +3454,10 @@ aside .advantages .desc
     justify-content: space-between;
 
     margin-top: 13px;
+
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    font-weight: 500;
 }
 
 
@@ -3331,14 +3486,14 @@ aside .advantages .desc
 
 .viewed_products .product .buy_btn
 {
+    width: 100%;
+    height: 42px;
+    margin-top: 16px;
+
     font-family: 'Fira Sans';
     font-size: 14px;
     font-weight: 600;
     line-height: 109.998%;
-
-    width: 100%;
-    height: 42px;
-    margin-top: 16px;
 
     cursor: pointer;
     text-transform: uppercase;
@@ -3365,9 +3520,9 @@ aside .advantages .desc
 
 .cart_info table th
 {
-    font: 500 16px/26px Fira Sans;
-
     padding: 0 15px 10px;
+
+    font: 500 16px/26px Fira Sans;
 
     text-align: center;
     vertical-align: middle;
@@ -3382,9 +3537,9 @@ aside .advantages .desc
 
 .cart_info table td
 {
-    font: 14px/26px Fira Sans;
-
     padding: 15px;
+
+    font: 14px/26px Fira Sans;
 
     text-align: center;
     vertical-align: middle;
@@ -3455,8 +3610,6 @@ aside .advantages .desc
 
 .cart_info table td.amount a
 {
-    font: 30px/39px Fira Sans;
-
     position: relative;
     z-index: 9;
 
@@ -3465,6 +3618,8 @@ aside .advantages .desc
 
     width: 34px;
     height: 39px;
+
+    font: 30px/39px Fira Sans;
 
     text-align: center;
     text-decoration: none;
@@ -3480,8 +3635,6 @@ aside .advantages .desc
 
 .cart_info table td.amount .input
 {
-    font: 500 16px Fira Sans;
-
     display: block;
     float: left;
 
@@ -3489,6 +3642,8 @@ aside .advantages .desc
     height: 39px;
     margin: 0 -34px;
     padding: 0 33px;
+
+    font: 500 16px Fira Sans;
 
     text-align: center;
 
@@ -3513,9 +3668,9 @@ aside .advantages .desc
 
 .checkout_info .title
 {
-    font: 700 24px/26px Fira Sans;
-
     margin-bottom: 20px;
+
+    font: 700 24px/26px Fira Sans;
 
     color: #000;
 }
@@ -3543,8 +3698,6 @@ aside .advantages .desc
 
 .checkout_info .form .name
 {
-    font: 14px/26px Fira Sans;
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -3553,6 +3706,8 @@ aside .advantages .desc
 
     min-height: 44px;
     padding-right: 15px;
+
+    font: 14px/26px Fira Sans;
 
     color: #000;
 }
@@ -3591,13 +3746,13 @@ aside .advantages .desc
 
 .form .input
 {
-    font: 16px Fira Sans;
-
     display: block;
 
     width: 100%;
     height: 44px;
     padding: 0 15px;
+
+    font: 16px Fira Sans;
 
     color: #000;
     border: 1px solid #e6e6e6;
@@ -3607,13 +3762,13 @@ aside .advantages .desc
 
 .form textarea
 {
-    font: 16px Fira Sans;
-
     display: block;
 
     width: 100%;
     height: 82px;
     padding: 11px 15px;
+
+    font: 16px Fira Sans;
 
     resize: none;
 
@@ -3641,14 +3796,14 @@ aside .advantages .desc
 
 .form input[type=checkbox] + label
 {
-    font: 14px/22px Fira Sans;
-
     position: relative;
 
     display: table-cell;
 
     height: 22px;
     padding-left: 40px;
+
+    font: 14px/22px Fira Sans;
 
     cursor: pointer;
     vertical-align: middle;
@@ -3691,11 +3846,11 @@ aside .advantages .desc
 
 .form input[type=file] + label
 {
-    font: 700 14px/26px Fira Sans;
-
     display: inline-block;
 
     padding-left: 28px;
+
+    font: 700 14px/26px Fira Sans;
 
     cursor: pointer;
     vertical-align: top;
@@ -3719,14 +3874,14 @@ aside .advantages .desc
 
 .form .submit_btn
 {
-    font: 14px/49px Fira Sans;
-
     display: inline-block;
 
     width: 207px;
     max-width: 100%;
     height: 49px;
     padding: 0 19px;
+
+    font: 14px/49px Fira Sans;
 
     cursor: pointer;
     vertical-align: top;
@@ -3746,9 +3901,9 @@ aside .advantages .desc
 
 .all a
 {
-    font: 700 14px Fira Sans;
-
     display: inline-block;
+
+    font: 700 14px Fira Sans;
 
     transition: .2s linear;
     vertical-align: top;
@@ -3907,9 +4062,9 @@ aside .advantages .desc
 
 .pagination a
 {
-    font-weight: 700;
-
     margin: 0 6px;
+
+    font-weight: 700;
 
     color: #000;
 }
